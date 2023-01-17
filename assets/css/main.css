@@ -2,3 +2,101 @@
     font-size: 3em;
 
 }
+
+.cibles-img {
+    /* background: orange; */
+    /* height: 300px; */
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cibles-img>div {
+    position: relative;
+    overflow: hidden;
+    border: solid 7px #fff;
+}
+
+.cibles-img>div img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.cibles-img>div .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    min-height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .5s;
+}
+
+.shadow p {
+    color: #fff;
+    font-size: 1.2em;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: .5s .2s;
+}
+
+.cibles-img>div:hover .shadow {
+    opacity: 1;
+}
+
+.cibles-img>div:hover .shadow p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-cent {
+    display: flex;
+    justify-content: center;
+}
+
+.poste {
+    margin-bottom: 30px !important;
+}
+
+.temoi {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.scale-img {
+    box-shadow: 0 0 0 10px #fff;
+}
+
+.logo-nav {
+    height: 70px !important;
+}
+
+.footer-logo {
+    height: 200px;
+}
+
+/*  */
+.partenaires {
+    background-color: hsla(216, 95%, 39%, 0.368);
+}
+
+@media screen and (max-width : 550px) {
+    .cibles-img {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 150px);
+    }
+
+    .cibles-img>div img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
