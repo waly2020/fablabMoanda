@@ -2,3 +2,9 @@
     font-size: 3em;
 
 }
+.img-rouded{
+    border-radius:10px
+}
+.text-white{
+    color:white;
+}
