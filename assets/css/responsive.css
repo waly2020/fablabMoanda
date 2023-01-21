@@ -409,6 +409,10 @@
         flex-direction: column-reverse!important;
     }
 
+    .display{
+        display:none!important;
+    }
+
     .about-img-2{
         margin-top:80px;
         margin-bottom:30px;
