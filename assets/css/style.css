@@ -187,6 +187,10 @@ img{
 .navbar-light .navbar-brand-sticky{
     display:none
 }
+.brand-slider{
+    display:flex;
+    align-items:center;
+}
 .sticky-nav{
     position:fixed;
     top:0;
@@ -210,7 +214,10 @@ img{
     color:#fff
 }
 .sticky-nav .main-nav nav .navbar-nav .nav-item a:hover{
-    transform:scale(1)
+    color:#fff
+}
+.sticky-nav .main-nav nav .navbar-nav .nav-item a.active{
+    color:#fff!important;
 }
 .sticky-nav .menu-btn .seo-btn{
     background-color:#fff;
@@ -249,7 +256,7 @@ img{
     color:#000;
 }
 .main-nav nav .navbar-nav .nav-item a.active{
-    color:#000;!important
+    color:#004a99;!important
 }
 .main-nav nav .navbar-nav .nav-item a.active i{
     -webkit-transform:rotate(90deg);
@@ -1651,12 +1658,15 @@ img{
     background-color:#fff;
     border-radius:15px;
     -webkit-box-shadow:0 0 15px rgba(0,0,0,.1);
-    box-shadow:0 0 15px rgba(0,0,0,.1)
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+    /* min-height:180px;
+    display:flex;
+    align-items:center; */
 }
 .blog-card .blog-content .blog-tag{
     position:absolute;
     left:25px;
-    bottom:130px
+    bottom:130px;
 }
 .blog-card .blog-content .blog-tag a{
     display:block
