@@ -657,6 +657,9 @@ img{
     right:0;
     z-index:-1
 }
+.text-size{
+    font-size:50px;
+}
 .service-area{
     z-index:1;
     position:relative
