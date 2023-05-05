@@ -2,6 +2,24 @@
     body{
         font-size:14px
     }
+    .banner-text{
+        text-align: center;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .faq-content{
+        text-align: center;
+    }
+    .common-catagory{
+        text-align: center; 
+    }
+    .pager-area{
+        display: none;
+    }
+    .service-dtls-content{
+        text-align: center;
+    }
     .ptb-100{
         padding-top:50px;
         padding-bottom:50px
@@ -673,6 +691,9 @@
         font-size: 30px;
         text-align: center;
     }
+    .banner-img{
+        display:none;
+    }
 }
 @media only screen and (min-width:576px) and (max-width:767px){
     .main-banner .container-fluid{
@@ -764,6 +785,24 @@
 @media only screen and (min-width:768px) and (max-width:991px){
     body{
         font-size:14px
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .faq-content{
+        text-align: center;
+    }
+    .service-dtls-content{
+        text-align: center;
+    }
+    .common-catagory{
+        text-align: center; 
+    }
+    .banner-img{
+        display:none;
     }
     .ptb-100{
         padding-top:50px;
